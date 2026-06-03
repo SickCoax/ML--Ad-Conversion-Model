@@ -2,7 +2,7 @@ import pandas as pd
 from train import train_model
 from evaluate import eval_model
 
-df = pd.read_csv(r"C:\Users\sailj\OneDrive\文档\GitHub\Ad Conversion Model\dataset\digital_marketing_campaign_dataset.csv")
+df = pd.read_csv(r"dataset\digital_marketing_campaign_dataset.csv")
 
 model , X_test , y_test = train_model(df)
 
