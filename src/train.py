@@ -1,4 +1,4 @@
-from .preprocessing import get_X_and_y
+from preprocessing import get_X_and_y
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
