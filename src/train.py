@@ -1,4 +1,4 @@
-from preprocessing import get_X_and_y
+from .preprocessing import get_X_and_y
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
@@ -6,7 +6,6 @@ from sklearn.preprocessing import OneHotEncoder , StandardScaler
 from xgboost import XGBClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.utils.class_weight import compute_sample_weight
-from sklearn.metrics import f1_score
 
 
 def train_model(df) :
